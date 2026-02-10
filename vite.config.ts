@@ -1,15 +1,16 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
-import { componentTagger } from "lovable-tagger";
-export default defineConfig(({ mode }) => ({
+
+export default defineConfig({
   server: {
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
 
-  // IMPORTANT for GitHub Pages
+  plugins: [react()],
+
+  // GitHub Pages repo name
   base: "/portfolio/",
 
   resolve: {
@@ -17,7 +18,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
   build: {
     cssCodeSplit: false,
   },
-}));
+});
