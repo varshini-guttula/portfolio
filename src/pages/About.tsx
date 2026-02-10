@@ -55,11 +55,11 @@ const About = () => {
       <header className="flex justify-between items-center pl-2 sm:pl-4 md:pl-6 lg:pl-8 pr-4 sm:pr-8 md:pr-12 lg:pr-16 py-3 sm:py-5 relative">
 
         {/* Left: VG */}
-        <a href="/" className="select-none">
-        <div className="text-[32px] sm:text-[40px] md:text-[46px] lg:text-[52px] font-[400] tracking-[-0.09em] leading-none flex-shrink-0 select-none -mt-2 transition-colors duration-300 hover:text-pink-500">
-  VG
-</div>
-</a>
+        <Link to="/" className="select-none">
+          <div className="text-[32px] sm:text-[40px] md:text-[46px] lg:text-[52px] font-[400] tracking-[-0.09em] leading-none flex-shrink-0 select-none -mt-2 transition-colors duration-300 hover:text-pink-500">
+            VG
+          </div>
+        </Link>
 
 
 
@@ -160,12 +160,14 @@ const About = () => {
 
             {/* About */}
             <div className="max-w-5xl pl-6 sm:pl-10 md:pl-16 lg:pl-24">
-              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-inter font-medium leading-relaxed tracking-[-0.08em] whitespace-pre-line">
-                Well, I believe in the quote 'Jack of all trades, master of none, is often better
-                than master of one.' I prefer to experiment and gain knowledge, rather than follow
-                a rigid learning program (exactly what colleges do T-T). I invest my time in exploring
-                my interests and refining the skills that matter to me. I am ambitious and self-aware, 
-                so I give my best and have no regrets.
+              <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-inter font-medium leading-relaxed tracking-[-0.07em] whitespace-pre-line">
+                “The things we love destroy us every time.” — Black Swan
+                <br/>
+                <br/>
+                I’m drawn to the process of refining things until they feel right. 
+                I spend a lot of time exploring what interests me and getting better 
+                at the skills that actually matter in my work (maybe even beyond it :P).
+                I am ambitious and fairly self-aware, so I tend to push myself and keep growing.
               </p>
             </div>
           </div>

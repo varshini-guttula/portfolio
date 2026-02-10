@@ -27,11 +27,11 @@ const Index = () => {
       <header className="flex justify-between items-center pl-2 sm:pl-4 md:pl-6 lg:pl-8 pr-4 sm:pr-8 md:pr-12 lg:pr-16 py-3 sm:py-5 relative">
 
         {/* Left: VG */}
-        <a href="/" className="select-none">
-        <div className="text-[32px] sm:text-[40px] md:text-[46px] lg:text-[52px] font-[400] tracking-[-0.09em] leading-none flex-shrink-0 select-none -mt-2 transition-colors duration-300 hover:text-pink-500">
-  VG
-</div>
-</a>
+        <Link to="/" className="select-none">
+          <div className="text-[32px] sm:text-[40px] md:text-[46px] lg:text-[52px] font-[400] tracking-[-0.09em] leading-none flex-shrink-0 select-none -mt-2 transition-colors duration-300 hover:text-pink-500">
+            VG
+          </div>
+        </Link>
 
 
         <div className="-mt-5 relative">
