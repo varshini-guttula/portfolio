@@ -66,18 +66,21 @@ const Index = () => {
               <Link
               to="/About"
               className="hover:text-pink-500 transition-colors duration-300"
+              style={{ cursor: `url(${customCursor}) 16 16, auto` }}
               >
               ABOUT
               </Link> 
               <a
                 href="https://drive.google.com/file/d/1BCyR6lJuFf95z-w-zMVaF26q8x1TOjmI/view?usp=sharing"
                 className="hover:text-pink-500 transition-colors duration-300"
+                style={{ cursor: `url(${customCursor}) 16 16, auto` }}
               >
                 RESUME
               </a>
               <a
                 href="https://www.linkedin.com/in/varshini-guttula/"
                 className="hover:text-pink-500 transition-colors duration-300"
+                style={{ cursor: `url(${customCursor}) 16 16, auto` }}
                 onClick={() => setMenuOpen(false)} 
               >
                 CONNECT
