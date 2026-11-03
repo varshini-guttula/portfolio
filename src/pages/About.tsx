@@ -89,7 +89,7 @@ const About = () => {
               ABOUT
               </Link> 
               <a
-                href="https://drive.google.com/file/d/1BCyR6lJuFf95z-w-zMVaF26q8x1TOjmI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1gHUWdIg0rglJXrzdP5ok-7wUhH5xmnnn/view?usp=sharing"
                 className="hover:text-pink-500 transition-colors duration-300"
               >
                 RESUME
