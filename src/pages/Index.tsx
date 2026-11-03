@@ -48,7 +48,7 @@ const Index = () => {
         >
           {/* Heart Icon */}
           <Heart
-  className={`w-7 h-10 sm:w-7 sm:h-7 stroke-[1.8] self-start mt-[2px] cursor-pointer
+  className={`w-7 h-10 sm:w-7 sm:h-7 stroke-[1.8] self-start mt-[2px]
               transition-transform transition-colors duration-700 ease-in-out
               ${menuOpen ? 'fill-pink-500 stroke-pink-500 rotate-[90deg]' : 'fill-black stroke-black rotate-0'}`}
   aria-label="Favorites"
@@ -77,7 +77,7 @@ const Index = () => {
               </a>
               <a
                 href="https://www.linkedin.com/in/varshini-guttula/"
-                className="hover:text-pink-500 transition-colors duration-300 cursor-pointer"
+                className="hover:text-pink-500 transition-colors duration-300"
                 onClick={() => setMenuOpen(false)} 
               >
                 CONNECT
