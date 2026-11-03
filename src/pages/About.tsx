@@ -45,12 +45,13 @@ const About = () => {
   };
        return (
       
-     <div className="min-h-screen bg-cover bg-background bg-no-repeat bg-fixedtext-foreground font-inter text-black custom-cursor"
-     style={{ backgroundImage: `url(${aboutBg})`,
-     style={{ cursor: `url(${customCursor}) 16 16, auto` }}
-    }}
-     
-     >
+     <div
+  className="min-h-screen bg-cover bg-background bg-no-repeat bg-fixed text-foreground font-inter text-black custom-cursor"
+  style={{
+    backgroundImage: `url(${aboutBg})`,
+    "--custom-cursor": `url(${customCursor}) 16 16, auto`
+  } as React.CSSProperties}
+>
       {/* Header */}
       <header className="flex justify-between items-center pl-2 sm:pl-4 md:pl-6 lg:pl-8 pr-4 sm:pr-8 md:pr-12 lg:pr-16 py-3 sm:py-5 relative">
 
