@@ -2,6 +2,7 @@ import { Heart, Search, Minus, X } from "lucide-react";
 import { useState, useRef } from "react";
 import starImage from "@/assets/star.png";
 import { Link } from "react-router-dom";
+import customCursor from "@/assets/cursor3.png";
 
 
 
@@ -22,7 +23,11 @@ const Index = () => {
     }, 150);
   };
        return (
-     <div className="min-h-screen bg-background text-foreground font-inter">
+    <div className="min-h-screen bg-background text-foreground font-inter custom-cursor"
+    style={{cursor: `url(${customCursor}) 16 16, auto` }}
+    >
+
+      
       {/* Header */}
       <header className="flex justify-between items-center pl-2 sm:pl-4 md:pl-6 lg:pl-8 pr-4 sm:pr-8 md:pr-12 lg:pr-16 py-3 sm:py-5 relative">
 
@@ -65,7 +70,7 @@ const Index = () => {
               ABOUT
               </Link> 
               <a
-                href="https://drive.google.com/file/d/1gHUWdIg0rglJXrzdP5ok-7wUhH5xmnnn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1BCyR6lJuFf95z-w-zMVaF26q8x1TOjmI/view?usp=sharing"
                 className="hover:text-pink-500 transition-colors duration-300"
               >
                 RESUME
@@ -229,11 +234,9 @@ const Index = () => {
 
 
 
-            <br/>
-            <br/>
-            <br/>
+          
             {/* 2Project Card */}
-            <div className="border-2 border-foreground rounded-3xl overflow-hidden relative bg-background shadow-[10px_10px_0px_0px_rgba(236,72,153,0.7)] -ml-2 sm:-ml-2 md:ml-0">
+            <div className="border-2 border-foreground rounded-3xl overflow-hidden relative bg-background shadow-[10px_10px_0px_0px_rgba(236,72,153,0.7)] -ml-2 sm:-ml-2 md:ml-0 mt-20">
               <div className="p-6 sm:p-8">
                 {/* URL Bar */}
                 <div className="flex items-center gap-3 mb-6 pb-4 border-b border-foreground/20">
@@ -286,11 +289,9 @@ const Index = () => {
 
 
 
-            <br/>
-            <br/>
-            <br/>
+            
             {/* 3Project Card */}
-            <div className="border-2 border-foreground rounded-3xl overflow-hidden relative bg-background shadow-[10px_10px_0px_0px_rgba(236,72,153,0.7)] -ml-2 sm:-ml-2 md:ml-0">
+            <div className="border-2 border-foreground rounded-3xl overflow-hidden relative bg-background shadow-[10px_10px_0px_0px_rgba(236,72,153,0.7)] -ml-2 sm:-ml-2 md:ml-0 mt-20">
               <div className="p-6 sm:p-8">
                 {/* URL Bar */}
                 <div className="flex items-center gap-3 mb-6 pb-4 border-b border-foreground/20">
