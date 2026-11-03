@@ -94,8 +94,13 @@ All colors MUST be HSL.
   animation: floatUp 2s ease-out forwards;
 }
 
+.custom-cursor,
+.custom-cursor * {
+  cursor: inherit;
+}
+
 .custom-cursor {
-  cursor: url("/src/assets/cursor.png") 10 10, auto;
+  cursor: url("/src/assets/cursor.png") 16 16, auto;
 }
 
 
