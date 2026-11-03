@@ -23,9 +23,12 @@ const Index = () => {
     }, 150);
   };
        return (
-    <div className="min-h-screen bg-background text-foreground font-inter custom-cursor"
-    style={{cursor: `url(${customCursor}) 16 16, auto` }}
-    >
+    <div
+  className="min-h-screen bg-background text-foreground font-inter custom-cursor"
+  style={{
+    "--custom-cursor": `url(${customCursor}) 16 16, auto`
+  } as React.CSSProperties}
+>
 
       
       {/* Header */}
