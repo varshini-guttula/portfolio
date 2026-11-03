@@ -47,7 +47,8 @@ const About = () => {
       
      <div className="min-h-screen bg-cover bg-background bg-no-repeat bg-fixedtext-foreground font-inter text-black custom-cursor"
      style={{ backgroundImage: `url(${aboutBg})`,
-     cursor: `url(${customCursor}) 16 16, auto`
+     "--custom-cursor": `url(${customCursor}) 16 16, auto`
+  } as React.CSSProperties}
     }}
      
      >
