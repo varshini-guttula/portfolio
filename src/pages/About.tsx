@@ -72,7 +72,7 @@ const About = () => {
         >
           {/* Heart Icon */}
           <Heart
-  className={`w-7 h-10 sm:w-7 sm:h-7 stroke-[1.8] self-start mt-[2px] cursor-pointer
+  className={`w-7 h-10 sm:w-7 sm:h-7 stroke-[1.8] self-start mt-[2px]
               transition-transform transition-colors duration-700 ease-in-out
               ${menuOpen ? 'fill-pink-500 stroke-pink-500 rotate-[90deg]' : 'fill-black stroke-black rotate-0'}`}
   aria-label="Favorites"
