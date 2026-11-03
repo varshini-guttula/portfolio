@@ -2,7 +2,7 @@ import { Heart, Search, Minus, X } from "lucide-react";
 import { useState, useRef } from "react";
 import starImage from "@/assets/star.png";
 import { Link } from "react-router-dom";
-import customCursor from "@/assets/cursor3.png";
+import customCursor from "@/assets/cursor.png";
 
 
 
