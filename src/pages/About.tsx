@@ -85,18 +85,21 @@ const About = () => {
               <Link
               to="/About"
               className="hover:text-pink-500 transition-colors duration-300"
+              style={{ cursor: `url(${customCursor}) 16 16, auto` }}
               >
               ABOUT
               </Link> 
               <a
                 href="https://drive.google.com/file/d/1gHUWdIg0rglJXrzdP5ok-7wUhH5xmnnn/view?usp=sharing"
                 className="hover:text-pink-500 transition-colors duration-300"
+                style={{ cursor: `url(${customCursor}) 16 16, auto` }}
               >
                 RESUME
               </a>
               <a
                 href="https://www.linkedin.com/in/varshini-guttula/"
                 className="hover:text-pink-500 transition-colors duration-300 cursor-pointer"
+                style={{ cursor: `url(${customCursor}) 16 16, auto` }}
                 onClick={() => setMenuOpen(false)} 
               >
                 CONNECT
